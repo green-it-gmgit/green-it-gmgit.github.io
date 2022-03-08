@@ -1,8 +1,8 @@
 # Site settings
-title: GMGIT
+title: GMGIT 4.0
 email:
 url: https://green-it-gmgit.github.io
-description: "Official website for the Governance and Management of Green IT."
+description: "Governance and Management of Green IT"
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
