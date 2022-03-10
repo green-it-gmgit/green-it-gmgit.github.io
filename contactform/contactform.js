@@ -1,7 +1,6 @@
 jQuery(document).ready(function($) {
 	"use strict";
 	
-	//Contact
 	$('form.contactForm').submit(function() {
 		var f = $(this).find('.form-group'), ferror = false, emailExp = /^[^\s()<>@,;:\/]+@\w[\w\.-]+\.[a-z]{2,}$/i;
 		
@@ -85,11 +84,11 @@ jQuery(document).ready(function($) {
 			}
 		});
 		if (ferror) return false;
-		else var str = $(this).serialize();
+		//else var str = $(this).serialize();
 		$.ajax({
 			type: "POST",
 			url: "contactform/contactform.php",
-			data: str,
+			data: "name=" + $("#name").val() + "&email=" + $("#email").val() + "&subject=" + $("#subject").val() + "&message=" + $("#message").val(),
 			success: function(msg) {
 				// alert(msg);
 				if (msg == 'OK') {
