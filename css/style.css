@@ -1289,6 +1289,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 	background: #13a456;
 }
 
+#contact .form button[type="submit"]:focus {
+	background: #808080;
+}
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
