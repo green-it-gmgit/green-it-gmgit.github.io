@@ -462,7 +462,7 @@
 					</div>
 					-->
 					<div class="form">
-						<form class="contactForm" role="form" action="https://docs.google.com/forms/d/e/1FAIpQLSeMQQ1e5whRG9cGBNgf8XDfeWlW8QlYdi_dKWubH5FD5NzVvg/formResponse" method="post" onsubmit="return validateForm();">
+						<form class="contactForm" role="form" action="https://docs.google.com/forms/d/e/1FAIpQLSeMQQ1e5whRG9cGBNgf8XDfeWlW8QlYdi_dKWubH5FD5NzVvg/formResponse" method="post" onsubmit="return validateForm();" target="messageSent">
 							<div class="form-row">
 								<div class="form-group col-md-6">
 									<input type="text" class="form-control" id="name" name="entry.472971657" placeholder="Your Name" required />
@@ -484,9 +484,7 @@
 							
 							<div class="text-center"><button id="send" type="submit">Send Message</button></div>
 							
-							<div id="messageSent">
-								<p>Your message has been sent. We will get back to you as soon as possible. Thank you!</p>
-							</div>
+							<div id="messageSent" name="messageSent" style="text-align: center;">Your message has been sent. We will get back to you as soon as possible. Thank you!</div>
 						</form>
 					</div>
 				</div>
@@ -567,7 +565,7 @@
 					return false;
 				} else {
 					alert("Your message has been sent. We will get back to you as soon as possible. Thank you!");
-					document.getElementById("messageSent").addClass("show");
+					document.getElementById("messageSent").style.display = "block";
 					document.getElementById("name").disabled = true;
 					document.getElementById("email").disabled = true;
 					document.getElementById("subject").disabled = true;
