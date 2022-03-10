@@ -1289,7 +1289,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 	background: #13a456;
 }
 
-#contact .form button[type="submit"]:focus {
+#contact .form button[type="submit"]:disabled {
 	background: #808080;
 }
 
