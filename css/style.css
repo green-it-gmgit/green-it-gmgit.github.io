@@ -895,7 +895,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #publications .publications-item {
 	position: relative;
-	height: 360px;
+	height: 420px;
 	overflow: hidden;
 }
 
@@ -964,7 +964,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 	background: #fff;
 	text-align: center;
 	padding: 30px;
-	height: 90px;
+	height: 150px;
 	border-radius: 0 0 3px 3px;
 }
 
