@@ -1003,7 +1003,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 	vertical-align: middle;
 	opacity: 0.5;
 	transition: 0.3s;
-	padding: 15px;
+	padding: 5px;
 }
 
 #partners img:hover {
