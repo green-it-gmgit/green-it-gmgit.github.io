@@ -999,7 +999,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #partners img {
-	max-width: 80%;
+	max-width: 100%;
 	vertical-align: middle;
 	opacity: 0.5;
 	transition: 0.3s;
