@@ -1000,10 +1000,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #partners img {
 	max-width: 80%;
-	display: block;
+	vertical-align: middle;
 	opacity: 0.5;
 	transition: 0.3s;
-	padding: 15px 0;
+	padding: 15px;
 }
 
 #partners img:hover {
