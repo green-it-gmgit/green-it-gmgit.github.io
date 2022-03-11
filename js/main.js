@@ -148,8 +148,8 @@ jQuery(document).ready(function( $ ) {
 		publicationsIsotope.isotope({ filter: $(this).data('filter') });
 	});
 	
-	// Clients carousel (uses the Owl Carousel library)
-	$(".clients-carousel").owlCarousel({
+	// Partners carousel (uses the Owl Carousel library)
+	$(".partners-carousel").owlCarousel({
 		autoplay: true,
 		dots: true,
 		loop: true,
