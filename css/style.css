@@ -801,6 +801,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 	transition: .9s;
 }
 
+#framework .framework-img {
+	text-align: center;
+	padding: 30px 0px;
+}
+
 /* Numbers Section
 --------------------------------*/
 #numbers {
@@ -840,11 +845,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 	font-family: "Montserrat", sans-serif;
 	font-size: 14px;
 	color: #111;
-}
-
-#numbers .numbers-img {
-	text-align: center;
-	padding-top: 30px;
 }
 
 /* Publications Section
