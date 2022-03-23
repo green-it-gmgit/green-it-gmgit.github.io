@@ -317,7 +317,7 @@ h1, h2, h3, h4, h5, h6 {
 	content: "\f105";
 }
 
-/* Nav Meu Container */
+/* Nav Menu Container */
 #nav-menu-container {
 	float: right;
 	margin: 0;
@@ -335,7 +335,7 @@ h1, h2, h3, h4, h5, h6 {
 	}
 }
 
-/* Nav Meu Styling */
+/* Nav Menu Styling */
 .nav-menu a {
 	padding: 0 8px 10px 8px;
 	text-decoration: none;
@@ -550,48 +550,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 	background: #f7f7f7;
 }
 
-/* Featured Services Section
---------------------------------*/
-#featured-services {
-	background: #000;
-}
-
-#featured-services .box {
-	padding: 30px 20px;
-}
-
-#featured-services .box-bg {
-	background-image: linear-gradient(0deg, #000000 0%, #242323 50%, #000000 100%);
-}
-
-#featured-services i {
-	color: #18d26e;
-	font-size: 48px;
-	display: inline-block;
-	line-height: 1;
-}
-
-#featured-services h4 {
-	font-weight: 400;
-	margin: 15px 0;
-	font-size: 18px;
-}
-
-#featured-services h4 a {
-	color: #fff;
-}
-
-#featured-services h4 a:hover {
-	color: #18d26e;
-}
-
-#featured-services p {
-	font-size: 14px;
-	line-height: 24px;
-	color: #fff;
-	margin-bottom: 0;
-}
-
 /* About Us Section
 --------------------------------*/
 #about {
@@ -776,6 +734,31 @@ body.mobile-nav-active #mobile-nav-toggle {
 	padding: 60px 0;
 }
 
+#framework .title {
+	font-weight: 700;
+	margin-bottom: 15px;
+	font-size: 24px;
+}
+
+#framework .title a {
+	color: #111;
+}
+
+#framework .box:hover .title a {
+	color: #18d26e;
+}
+
+#framework .description {
+	font-size: 18px;
+	line-height: 28px;
+	margin-bottom: 0;
+}
+
+#framework .framework-img {
+	text-align: center;
+	padding: 0px 0px 30px;
+}
+
 #framework .progress {
 	height: 35px;
 	margin-bottom: 10px;
@@ -799,31 +782,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 	width: 1px;
 	text-align: left;
 	transition: .9s;
-}
-
-#framework .framework-img {
-	text-align: center;
-	padding: 30px 0px;
-}
-
-#framework .title {
-	font-weight: 700;
-	margin-bottom: 15px;
-	font-size: 20px;
-}
-
-#framework .title a {
-	color: #111;
-}
-
-#framework .box:hover .title a {
-	color: #18d26e;
-}
-
-#framework .description {
-	font-size: 16px;
-	line-height: 26px;
-	margin-bottom: 0;
 }
 
 /* Numbers Section
