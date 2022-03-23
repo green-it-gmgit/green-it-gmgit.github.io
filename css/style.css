@@ -749,13 +749,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #framework .description {
-	font-size: 18px;
-	line-height: 28px;
+	font-size: 16px;
+	line-height: 26px;
 	margin-bottom: 0;
 }
 
 #framework .framework-img {
 	text-align: center;
+	margin-left: 10px;
 	padding: 0px 0px 30px;
 }
 
