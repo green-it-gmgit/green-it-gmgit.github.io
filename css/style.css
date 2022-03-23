@@ -19,15 +19,15 @@ a:hover, a:active, a:focus {
 }
 
 p {
-	padding: 0;
-	margin: 0 0 30px 0;
+	padding: 0px;
+	margin: 0px 0px 30px 0px;
 }
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: "Montserrat", sans-serif;
 	font-weight: 400;
-	margin: 0 0 20px 0;
-	padding: 0;
+	margin: 0px 0px 20px 0px;
+	padding: 0px;
 }
 
 /* Back to top button */
@@ -64,7 +64,7 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-	padding: 30px 0;
+	padding: 30px 0px;
 	height: 92px;
 	position: fixed;
 	left: 0;
@@ -76,7 +76,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #header.header-scrolled {
 	background: rgba(0, 0, 0, 0.9);
-	padding: 20px 0;
+	padding: 20px 0px;
 	height: 72px;
 	transition: all 0.5s;
 }
@@ -93,8 +93,8 @@ h1, h2, h3, h4, h5, h6 {
 
 #header #logo h1 {
 	font-size: 34px;
-	margin: 0;
-	padding: 0;
+	margin: 0px;
+	padding: 0px;
 	line-height: 1;
 	font-family: "Montserrat", sans-serif;
 	font-weight: 700;
@@ -108,8 +108,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header #logo img {
-	padding: 0;
-	margin: 0;
+	padding: 0px;
+	margin: 0px;
 }
 
 @media (max-width: 768px) {
@@ -146,10 +146,10 @@ h1, h2, h3, h4, h5, h6 {
 	position: absolute;
 	height: 100%;
 	width: 100%;
-	top: 0;
-	right: 0;
-	left: 0;
-	bottom: 0;
+	top: 0px;
+	right: 0px;
+	left: 0px;
+	bottom: 0px;
 }
 
 #intro .carousel-container {
@@ -157,10 +157,10 @@ h1, h2, h3, h4, h5, h6 {
 	justify-content: center;
 	align-items: center;
 	position: absolute;
-	bottom: 0;
-	top: 0;
-	left: 0;
-	right: 0;
+	bottom: 0px;
+	top: 0px;
+	left: 0px;
+	right: 0px;
 }
 
 #intro .carousel-content {
@@ -182,7 +182,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #intro p {
 	width: 80%;
-	margin: 0 auto 30px auto;
+	margin: 0px auto 30px auto;
 	color: #fff;
 }
 
@@ -263,8 +263,8 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 /* Nav Menu Essentials */
 .nav-menu, .nav-menu * {
-	margin: 0;
-	padding: 0;
+	margin: 0px;
+	padding: 0px;
 	list-style: none;
 }
 
@@ -272,7 +272,7 @@ h1, h2, h3, h4, h5, h6 {
 	position: absolute;
 	display: none;
 	top: 100%;
-	left: 0;
+	left: 0px;
 	z-index: 99;
 }
 
@@ -291,7 +291,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu ul ul {
-	top: 0;
+	top: 0px;
 	left: 100%;
 }
 
@@ -320,7 +320,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Nav Menu Container */
 #nav-menu-container {
 	float: right;
-	margin: 0;
+	margin: 0px;
 }
 
 @media (min-width: 1024px) {
@@ -337,7 +337,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Nav Menu Styling */
 .nav-menu a {
-	padding: 0 8px 10px 8px;
+	padding: 0px 8px 10px 8px;
 	text-decoration: none;
 	display: inline-block;
 	color: #fff;
@@ -357,7 +357,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu ul {
-	margin: 4px 0 0 0;
+	margin: 4px 0px 0px 0px;
 	padding: 10px;
 	box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
 	background: #fff;
@@ -381,17 +381,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu ul ul {
-	margin: 0;
+	margin: 0px;
 }
 
 /* Mobile Nav Toggle */
 #mobile-nav-toggle {
 	position: fixed;
-	right: 0;
-	top: 0;
+	right: 0px;
+	top: 0px;
 	z-index: 999;
-	margin: 20px 20px 0 0;
-	border: 0;
+	margin: 20px 20px 0px 0px;
+	border: 0px;
 	background: none;
 	font-size: 24px;
 	display: none;
@@ -413,9 +413,9 @@ h1, h2, h3, h4, h5, h6 {
 /* Mobile Nav Styling */
 #mobile-nav {
 	position: fixed;
-	top: 0;
+	top: 0px;
 	padding-top: 18px;
-	bottom: 0;
+	bottom: 0px;
 	z-index: 998;
 	background: rgba(0, 0, 0, 0.8);
 	left: -260px;
@@ -425,8 +425,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #mobile-nav ul {
-	padding: 0;
-	margin: 0;
+	padding: 0px;
+	margin: 0px;
 	list-style: none;
 }
 
@@ -481,8 +481,8 @@ h1, h2, h3, h4, h5, h6 {
 	width: 100%;
 	height: 100%;
 	z-index: 997;
-	top: 0;
-	left: 0;
+	top: 0px;
+	left: 0px;
 	position: fixed;
 	background: rgba(0, 0, 0, 0.7);
 	display: none;
@@ -494,7 +494,7 @@ body.mobile-nav-active {
 }
 
 body.mobile-nav-active #mobile-nav {
-	left: 0;
+	left: 0px;
 }
 
 body.mobile-nav-active #mobile-nav-toggle {
@@ -555,17 +555,17 @@ body.mobile-nav-active #mobile-nav-toggle {
 #about {
 	background: url("../img/about.jpg") center top no-repeat fixed;
 	background-size: cover;
-	padding: 60px 0 40px 0;
+	padding: 60px 0px 40px 0px;
 	position: relative;
 }
 
 #about::before {
 	content: '';
 	position: absolute;
-	left: 0;
-	right: 0;
-	top: 0;
-	bottom: 0;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
 	background: rgba(255, 255, 255, 0.92);
 	z-index: 9;
 }
@@ -577,7 +577,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #about .about-col {
 	background: #fff;
-	border-radius: 0 0 4px 4px;
+	border-radius: 0px 0px 4px 4px;
 	box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
 	margin-bottom: 20px;
 }
@@ -587,7 +587,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .about-col .img img {
-	border-radius: 4px 4px 0 0;
+	border-radius: 4px 4px 0px 0px;
 }
 
 #about .about-col .icon {
@@ -626,7 +626,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 	font-weight: 700;
 	font-size: 20px;
 	padding: 0;
-	margin: 40px 0 12px 0;
+	margin: 40px 0px 12px 0px;
 }
 
 #about .about-col h2 a {
@@ -642,7 +642,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 	line-height: 24px;
 	color: #333;
 	margin-bottom: 0;
-	padding: 0 20px 20px 20px;
+	padding: 0px 20px 20px 20px;
 }
 
 /* Services Section
@@ -650,7 +650,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #services {
 	background: #fff;
 	background-size: cover;
-	padding: 60px 0 40px 0;
+	padding: 60px 0px 40px 0px;
 }
 
 #services .box {
@@ -695,7 +695,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #join-green-it {
 	background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../img/join-green-it.jpg) fixed center center;
 	background-size: cover;
-	padding: 60px 0;
+	padding: 60px 0px;
 }
 
 #join-green-it h3 {
@@ -731,7 +731,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* The Framework Section
 --------------------------------*/
 #framework {
-	padding: 60px 0;
+	padding: 60px 0px;
 }
 
 #framework .title {
@@ -767,15 +767,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 #framework .progress .feature {
 	font-family: "Open Sans", sans-serif;
 	line-height: 35px;
-	padding: 0;
-	margin: 0 0 0 20px;
+	padding: 0px;
+	margin: 0px 0px 0px 20px;
 	text-transform: uppercase;
 }
 
 #framework .progress .feature .val {
 	float: right;
 	font-style: normal;
-	margin: 0 20px 0 0;
+	margin: 0px 20px 0px 0px;
 }
 
 #framework .progress-bar {
@@ -796,10 +796,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 #numbers::before {
 	content: '';
 	position: absolute;
-	left: 0;
-	right: 0;
-	top: 0;
-	bottom: 0;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
 	background: rgba(255, 255, 255, 0.88);
 	z-index: 9;
 }
@@ -828,19 +828,19 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Publications Section
 --------------------------------*/
 #publications {
-	padding: 60px 0;
+	padding: 60px 0px;
 }
 
 #publications #publications-filters {
 	padding: 0;
-	margin: 5px 0 35px 0;
+	margin: 5px 0px 35px 0px;
 	list-style: none;
 	text-align: center;
 }
 
 #publications #publications-filters li {
 	cursor: pointer;
-	margin: 15px 15px 15px 0;
+	margin: 15px 15px 15px 0px;
 	display: inline-block;
 	padding: 10px 20px;
 	font-size: 12px;
@@ -859,7 +859,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #publications #publications-filters li:last-child {
-	margin-right: 0;
+	margin-right: 0px;
 }
 
 #publications .publications-wrap {
@@ -882,8 +882,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 	overflow: hidden;
 	height: 240px;
 	position: relative;
-	border-radius: 4px 4px 0 0;
-	margin: 0;
+	border-radius: 4px 4px 0px 0px;
+	margin: 0px;
 }
 
 #publications .publications-item figure:hover img {
@@ -943,14 +943,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 	text-align: center;
 	padding: 30px;
 	height: 180px;
-	border-radius: 0 0 3px 3px;
+	border-radius: 0px 0px 3px 3px;
 }
 
 #publications .publications-item .publications-info h4 {
 	font-size: 18px;
 	font-weight: 700;
 	margin-bottom: 18px;
-	padding-bottom: 0;
+	padding-bottom: 0px;
 }
 
 #publications .publications-item .publications-info h4 a {
@@ -962,8 +962,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #publications .publications-item .publications-info p {
-	padding: 0;
-	margin: 0;
+	padding: 0px;
+	margin: 0px;
 	color: #b8b8b8;
 	font-weight: 500;
 	font-size: 14px;
@@ -973,7 +973,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Partners Section
 --------------------------------*/
 #partners {
-	padding: 60px 0;
+	padding: 60px 0px;
 }
 
 #partners img {
@@ -995,7 +995,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #partners .owl-dot {
 	display: inline-block;
-	margin: 0 5px;
+	margin: 0px 5px;
 	width: 12px;
 	height: 12px;
 	border-radius: 50%;
@@ -1009,7 +1009,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Contact Section
 --------------------------------*/
 #contact {
-	padding: 60px 0;
+	padding: 60px 0px;
 }
 
 #contact .contact-info {
@@ -1051,7 +1051,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media (min-width: 768px) {
 	#contact .contact-address, #contact .contact-phone, #contact .contact-email {
-		padding: 20px 0;
+		padding: 20px 0px;
 	}
 }
 
@@ -1089,7 +1089,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #contact .form .validation {
 	color: red;
 	display: none;
-	margin: 0 0 20px;
+	margin: 0px 0px 20px;
 	font-weight: 400;
 	font-size: 13px;
 }
@@ -1123,14 +1123,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 #footer {
 	background: #000;
-	padding: 0 0 30px 0;
+	padding: 0px 0px 30px 0px;
 	color: #eee;
 	font-size: 14px;
 }
 
 #footer .footer-top {
 	background: #111;
-	padding: 60px 0 30px 0;
+	padding: 60px 0px 30px 0px;
 }
 
 #footer .footer-top .footer-info {
@@ -1139,8 +1139,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #footer .footer-top .footer-info h3 {
 	font-size: 34px;
-	margin: 0 0 20px 0;
-	padding: 2px 0 2px 10px;
+	margin: 0px 0px 20px 0px;
+	padding: 2px 0px 2px 10px;
 	line-height: 1;
 	font-family: "Montserrat", sans-serif;
 	font-weight: 700;
@@ -1151,7 +1151,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #footer .footer-top .footer-info p {
 	font-size: 14px;
 	line-height: 24px;
-	margin-bottom: 0;
+	margin-bottom: 0px;
 	font-family: "Montserrat", sans-serif;
 	color: #eee;
 }
@@ -1162,7 +1162,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 	background: #333;
 	color: #eee;
 	line-height: 1;
-	padding: 8px 0;
+	padding: 8px 0px;
 	margin-right: 4px;
 	border-radius: 50%;
 	text-align: center;
@@ -1188,13 +1188,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 #footer .footer-top h4::before, #footer .footer-top h4::after {
 	content: '';
 	position: absolute;
-	left: 0;
-	bottom: 0;
+	left: 0px;
+	bottom: 0px;
 	height: 2px;
 }
 
 #footer .footer-top h4::before {
-	right: 0;
+	right: 0px;
 	background: #555;
 }
 
@@ -1209,8 +1209,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #footer .footer-top .footer-links ul {
 	list-style: none;
-	padding: 0;
-	margin: 0;
+	padding: 0px;
+	margin: 0px;
 }
 
 #footer .footer-top .footer-links ul i {
@@ -1220,11 +1220,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #footer .footer-top .footer-links ul li {
 	border-bottom: 1px solid #333;
-	padding: 10px 0;
+	padding: 10px 0px;
 }
 
 #footer .footer-top .footer-links ul li:first-child {
-	padding-top: 0;
+	padding-top: 0px;
 }
 
 #footer .footer-top .footer-links ul a {
@@ -1257,7 +1257,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 	background: #18d26e;
 	border: 0;
 	width: 35%;
-	padding: 6px 0;
+	padding: 6px 0px;
 	text-align: center;
 	color: #fff;
 	transition: 0.3s;
