@@ -806,18 +806,26 @@ body.mobile-nav-active #mobile-nav-toggle {
 	padding: 30px 0px;
 }
 
-#framework h4 {
-	font-weight: 400;
-	margin: 15px 0;
+#framework .title {
+	margin-left: 60px;
+	font-weight: 700;
+	margin-bottom: 15px;
 	font-size: 18px;
 }
 
-#framework h4 a {
-	color: #fff;
+#framework .title a {
+	color: #111;
 }
 
-#framework h4 a:hover {
+#framework .box:hover .title a {
 	color: #18d26e;
+}
+
+#framework .description {
+	font-size: 14px;
+	margin-left: 60px;
+	line-height: 24px;
+	margin-bottom: 0;
 }
 
 /* Numbers Section
